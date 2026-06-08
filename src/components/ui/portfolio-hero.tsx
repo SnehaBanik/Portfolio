@@ -238,8 +238,7 @@ export default function Component() {
                 >
                   {item.label}
                   <span
-                    className="absolute -bottom-1 left-0 h-0.5 bg-[#C3E41D] transition-all duration-300"
-                    style={{ width: isActive ? "100%" : "0%" }}
+                    className={`absolute -bottom-1 left-0 h-0.5 bg-[#C3E41D] transition-all duration-300 group-hover:w-full ${isActive ? "w-full" : "w-0"}`}
                   ></span>
                 </a>
               );
