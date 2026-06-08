@@ -112,15 +112,19 @@ export default function AboutSection() {
               </TimelineContent>
 
               <TimelineContent
-                as="a"
+                as="div"
                 animationNum={6}
                 timelineRef={heroRef}
                 customVariants={textVariants}
-                className="bg-[#C3E41D] hover:bg-white transition-colors duration-300 gap-2 font-bold text-black h-14 px-8 rounded-full text-base inline-flex items-center cursor-pointer shadow-[0_0_20px_rgba(195,228,29,0.2)] hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
-                href="#contact"
+                className="inline-flex"
               >
-                <Zap fill="black" size={20} className="text-black" />
-                Contact Me
+                <a
+                  href="#contact"
+                  className="bg-[#C3E41D] hover:bg-white transition-colors duration-300 gap-2 font-bold text-black h-14 px-8 rounded-full text-base inline-flex items-center cursor-pointer shadow-[0_0_20px_rgba(195,228,29,0.2)] hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
+                >
+                  <Zap fill="black" size={20} className="text-black" />
+                  Contact Me
+                </a>
               </TimelineContent>
             </div>
           </div>
