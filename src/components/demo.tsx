@@ -1,4 +1,3 @@
-import React from "react";
 import Component from "./ui/portfolio-hero";
 import AboutSection from "./ui/about-section";
 import EducationSection from "./ui/education-section";

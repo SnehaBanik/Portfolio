@@ -4,7 +4,6 @@ import { TimelineContent } from "@/components/ui/timeline-animation";
 import { useRef } from "react";
 import { Trophy, Code, Palette, BookOpen } from "lucide-react";
 import { BentoGrid, type BentoItem } from "@/components/ui/bento-grid";
-import UIUX from "../../certification-prizes/UI-UX.png"
 
 const achievementItems: BentoItem[] = [
   {
